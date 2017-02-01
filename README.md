@@ -6,4 +6,4 @@ Essayez d'éviter le copier pur et simple, après, je ne vais pas vous donner de
 
 Besoin d'explications ? lesecq.damien@gmail.com
 
-###### Pour les étrangers : http://jstiker.free.fr/
+#### Pour les étrangers : http://jstiker.free.fr/
