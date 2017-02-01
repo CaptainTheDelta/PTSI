@@ -3,7 +3,7 @@
 print("TP1 - Ex11")
 
 # Consigne :
-print("Dans la console, tapez les instructions suivantes."+
+print("\nDans la console, tapez les instructions suivantes."+
     ">>> a = 1 ; type(a)\n"+
     ">>> b = 1. ; type(b)\n"+
     ">>> import cmath\n"+
@@ -38,5 +38,5 @@ print(b+2,'\t',type(b+2.))
 print(2 + c,'\t',type(2+c))
 
 # Conclusion :
-print("On observe que python opère des conversions de type, les float "+
+print("\nOn observe que python opère des conversions de type, les float "+
     "l'<<emportent>> sur les int pendant les opérations.")

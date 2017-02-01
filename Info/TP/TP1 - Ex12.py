@@ -3,7 +3,7 @@
 print("TP1 - Ex12")
 
 # Consigne :
-print("Tapez les différentes instructions suivantes dans la console."+
+print("\nTapez les différentes instructions suivantes dans la console."+
     ">>> s = \"Hello World!\"\n"+
     ">>> print(s)\n"+
     ">>> s[0]\n"+
@@ -32,5 +32,5 @@ print(s[0:8:2])
 print(s[::3])
 
 # Conclusion :
-print("On opère du slicing. Les paramètres sont s[ début : fin : pas], et tous"+
-    "les paramètres ne sont pa obligatoires.")
+print("\nOn opère du slicing. Les paramètres sont s[ début : fin : pas], et "+
+    "tous les paramètres ne sont pa obligatoires.")

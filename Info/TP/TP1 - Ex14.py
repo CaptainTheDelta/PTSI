@@ -3,7 +3,7 @@
 print("TP1 - Ex14")
 
 # Consigne :
-print("""Dans la console tapez les instructions qui affichent :
+print("""\nDans la console tapez les instructions qui affichent :
 
 "J'aime beaucoup Python.
         Même si je ne comprends pas tout."
@@ -18,5 +18,5 @@ print("J'aime beaucoup Python.\n\tMême si je ne comprends pas tout.")
 # \t <-> tabulation
 
 # Conclusion :
-print("\\n permet correspond à un retour à la ligne, \\t correspond à une "+
+print("\n\\n permet correspond à un retour à la ligne, \\t correspond à une "+
     "tabulation.")

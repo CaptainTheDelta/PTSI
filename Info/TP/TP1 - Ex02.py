@@ -3,7 +3,7 @@
 print("TP1 - Ex2")
 
 # Consigne :
-print("Ouvrez une nouvelle fenêtre et sauvez le fichier dans votre dossier "+
+print("\nOuvrez une nouvelle fenêtre et sauvez le fichier dans votre dossier "+
     "TP1 sous le nom : TP1.py. Dans ce fichier inscrivez les commandes "+
     "suivantes :\n\n"+
     "1 + 1\n"+
@@ -27,4 +27,4 @@ print(">>> 2*3")
 2*3
 
 # Conclusion :
-print("Utiliser un fichier permet de sauvegarder notre travail.")
+print("\nUtiliser un fichier permet de sauvegarder notre travail.")

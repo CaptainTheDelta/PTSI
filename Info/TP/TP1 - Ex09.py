@@ -3,7 +3,7 @@
 print("TP1 - Ex9")
 
 # Consigne :
-print("Dans la console, tapez les commandes suivantes.\n\n"+
+print("\nDans la console, tapez les commandes suivantes.\n\n"+
     ">>> a = 10\n"+
     ">>> b = a + 1\n\n"+
     "Que vaut b ? Vérifiez en affichant la valeur.\n\n"+
@@ -82,4 +82,4 @@ print(">>> print("a = ", a, "b = ", b)")
 print("a = ", a, "b = ", b)
 
 # Conclusion :
-print("Les variables ont été échangées.")
+print("\nLes variables ont été échangées.")

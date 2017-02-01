@@ -3,7 +3,8 @@
 print("TP1 - Ex10")
 
 # Consigne :
-print("Tapez les instructions suivantes dans le fichier TP1.py et sauvez.\n\n"+
+print("\nTapez les instructions suivantes dans le fichier TP1.py et sauvez."+
+    "\n\n"+
     "a = 10\n"+
     "b = 20\n"+
     "c = 30\n"+
@@ -27,5 +28,5 @@ print(">>> print((a+b)*c+1)")
 print((a+b)*c+1)
 
 # Conclusion :
-print("Le résultat est 1, car pour le calcul final, c = 0 et comme python "+
+print("\nLe résultat est 1, car pour le calcul final, c = 0 et comme python "+
     "applique les priorités opératoires")

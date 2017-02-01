@@ -3,7 +3,7 @@
 print("TP1 - Ex8")
 
 # Consigne :
-print("Dans la console tapez les lignes suivantes.\n\n"+
+print("\nDans la console tapez les lignes suivantes.\n\n"+
     ">>> a = 2013\n"+
     ">>> a = a + 1\n\n"+
     "Que vaut a à votre avis ? Vérifiez en affichant la valeur de a.\n"+
@@ -29,6 +29,6 @@ print(">>> a")
 print(a)
 
 # Conclusion :
-print("La valeur de a est celle de la dernière valeur que nous lui avons "+
+print("\nLa valeur de a est celle de la dernière valeur que nous lui avons "+
     "attribué. La seconde partie permet de simplifier le code et de faire un "+
     "calcul impliquant la variable, en ne l'appelant qu'une fois.")

@@ -3,7 +3,7 @@
 print("TP1 - Ex15")
 
 # Consigne :
-print("""Tapez dans la console et évaluez les instructions suivantes.
+print("""\nTapez dans la console et évaluez les instructions suivantes.
 
 >>> True + True ; True + False ; True * False ; False + False ; False * False
 >>> 2 < 3
@@ -47,7 +47,7 @@ print(not(3 > 4))
 print('a'+'b' == 'ab' or 7 < 3)
 
 # Conclusion :
-print("Les opérations entre true et false retournent des entiers. Pour faire "+
-    "de la logique booléenne, on utilise not, and et or.\nLes calculs sont "+
-    "prioritaires sur les comparaisons. La comparaison de textes porte sur "+
-    "leur longueurs.")
+print("\nLes opérations entre true et false retournent des entiers. Pour "+
+    "faire de la logique booléenne, on utilise not, and et or.\nLes calculs "+
+    "sont prioritaires sur les comparaisons. La comparaison de textes porte "+
+    "sur leur longueurs.")

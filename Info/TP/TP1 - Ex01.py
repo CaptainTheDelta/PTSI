@@ -3,7 +3,7 @@
 print("TP1 - Ex1")
 
 # Consigne :
-print("Taper les différentes opérations suivantes (chacune sur une ligne) :\n"+
+print("\nTaper les différentes opérations suivantes (chacune sur une ligne) :\n"+
     "2 + 3; 3 - 5; -2 * 7; 9 ** 2; 3.11 / 2.7; 2.2 / 3.5; 15.0 / 2.0; 15 // "+
     "2; 16 % 3\n"+
     "Observez le format des différents résultats.\n"+
