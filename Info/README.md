@@ -9,4 +9,4 @@ Voici des conventions que je conseille d'utiliser :
 5. Essayer d'écrire des lignes de maximum 80 caractères.
 6. Réflechir vraiment avant d'aller chercher la solution, pas essayer de faire un truc pendant 15min en se disant "j'y arrive pas..."
 7. Si jamais on cherche la solution, ne pas la copier-coller, la recopier "à la main", pour mieux la comprendre et se l'approprier.
-8. Le principe DRY : Don't Repaet Yourself (autrement dit quand un code se répète : faire une fonction, ou bien mieux gérer les conditions,...)
+8. Le principe DRY : Don't Repeat Yourself (autrement dit quand un code se répète : faire une fonction, ou bien mieux gérer les conditions,...)
