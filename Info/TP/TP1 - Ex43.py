@@ -9,6 +9,7 @@ print("\nDéterminer les nombres premiers p <= 100 tels qu'il existe deux "+
 # Exercice :
 Max = 100
 premier = []
+
 for i in range(Max+1):
     premier.append(True)
 premier[0] = False; premier[1] = False
