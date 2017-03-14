@@ -1,6 +1,6 @@
 # Pistes pour le DM6
 
-### Exercice 1
+## Exercice 1
 
 **Q1 :** Une matrice est une liste de listes.  
 `n` : nombre de lignes.  
@@ -72,6 +72,6 @@ On a donc (attention, absence de math dans les mots suivants :) une sorte de dou
 Indice : essayer les multiplications à droite, à gauche...  
 **d)** Application des fonctions.
 
-### Exercice 2
+## Exercice 2
 
 **Q **
