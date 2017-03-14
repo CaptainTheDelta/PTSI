@@ -1,4 +1,4 @@
-# Les deux méga-pièges du TP :heavy_exclamation_mark: :
+# Les deux méga-pièges du TP !!! :
 
 ## Lorsque le csv est "français" :
 C'est à dire lorsque les séparateurs sont des ';' et non des ',':
