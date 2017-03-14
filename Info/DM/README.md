@@ -1,4 +1,4 @@
-# Pistes pour le DM5
+# Pistes pour le DM6
 
 ### Exercice 1
 
@@ -30,16 +30,16 @@ Indices :   - les coefficients diagonaux ont pour 'indices' i = j.
 
 **Q7 :** Vérifier que les matrices sont sommables. Ajouter coefs à coefs.
 
-**Q8 : a)** Création de la matrice transposée via `cree_matrice`. Remplissage en inversant les indices.
-**b)** rappel du cours : matrices symétriques : transposée(A) = a
-matrices antisymtriques : transposée(A) = -A
+**Q8 : a)** Création de la matrice transposée via `cree_matrice`. Remplissage en inversant les indices.  
+**b)** rappel du cours : matrices symétriques : transposée(A) = a  
+matrices antisymtriques : transposée(A) = -A  
 Pour la matrice triangulaire inférieure, étudier transposée(A).
 
 **Q9 :** Besoin d'aide ?
 
-**Q10 : a)** Vérifier que le produit est possible.
+**Q10 : a)** Vérifier que le produit est possible.  
 Pour le calcul, embriquer deux for me paraît raisonnable (pas encore fait de mon côté, 14/03).  
-**b)** Tenter une récurrence ?
+**b)** Tenter une récurrence ?  
 Rappel :  
 ```python
 def pow(x,n):
@@ -59,4 +59,19 @@ def pow(x,n):
 ```
 
 **Q11 : a)** Etudier la somme des indices des coeffs non nuls.  
-**b)** 
+**b)** `centroMat` est plus difficile à appréhender :
+```
+    / 11 21 31 41 \        / 44 34 24 14 \
+A = | 12 22 32 42 | et Â = | 43 33 23 13 |
+    | 13 23 33 43 |        | 42 32 22 12 |
+    \ 14 24 34 44 /        \ 41 31 21 11 /
+```
+(pas sûr, à vérifier de votre côté)  
+On a donc (attention, absence de math dans les mots suivants :) une sorte de double inversion de A.  
+**c)** De la bidouille et des tests à faire.  
+Indice : essayer les multiplications à droite, à gauche...  
+**d)** Application des fonctions.
+
+### Exercice 2
+
+**Q **
