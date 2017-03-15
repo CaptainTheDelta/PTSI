@@ -85,7 +85,7 @@ Rappel sur les arguments : [Options (TP4)](http://jstiker.free.fr/TP4.html#des-o
 
 **Q3** Rappel sur les légendes : [ex2 TP4](https://github.com/CaptainTheDelta/PTSI/blob/master/Info/TP/TP4/TP4%20-%20Ex02.py)
 
-**Q4** Pour les axes, [ex1 TP4](https://github.com/CaptainTheDelta/PTSI/blob/master/Info/TP/TP4/TP4%20-%20Ex01.py), en sachant que la fonction `axhline` n'a que des paramètres optionnels (et si vous chipotez, sachez que la couleur `black` existe dans `matplotlib.pyplot`.
+**Q4** Pour les axes, [ex1 TP4](https://github.com/CaptainTheDelta/PTSI/blob/master/Info/TP/TP4/TP4%20-%20Ex01.py), en sachant que la fonction `axhline` n'a que des paramètres optionnels (et si vous chipotez, sachez que la couleur `black` existe dans `matplotlib.pyplot`. De plus il existe la fonction `plt.axvline`.
 
 **Q5** Pour les tangentes, ai pas trouvé s'il existe une méthode sous `matplotlib.pyplot` ou `numpy` pour le faire à notre place. A creuser... (15/03/17)
 
