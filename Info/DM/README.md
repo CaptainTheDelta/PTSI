@@ -38,7 +38,7 @@ Pour la matrice triangulaire inférieure, étudier transposée(A).
 **Q9 :** Besoin d'aide ?
 
 **Q10 : a)** Vérifier que le produit est possible.  
-Pour le calcul, imbriquer deux for me paraît raisonnable (pas encore fait de mon côté, 14/03).  
+Pour le calcul, imbriquer deux for me paraît raisonnable (pas encore fait de mon côté, 14/03/17).  
 **b)** Tenter une récurrence ?  
 Rappel :  
 ```python
@@ -74,4 +74,36 @@ Indice : essayer les multiplications à droite, à gauche...
 
 ## Exercice 2
 
-**Q **
+Pour tout l'exercice, on a besoin de `matplotlib.pyplot` et de `numpy`
+Rappel sur les arguments : [Options (TP4)](http://jstiker.free.fr/TP4.html#des-options)
+
+**Q1** Les fonctions `cosh`, `sinh` et `tanh` sont dans le module numpy.
+
+**Q2** Besoin d'aide ?
+
+**Q3** Rappel sur les légendes : [ex2 TP4](https://github.com/CaptainTheDelta/PTSI/blob/master/Info/TP/TP4/TP4%20-%20Ex02.py)
+
+**Q4** Pour les axes, [ex1 TP4](https://github.com/CaptainTheDelta/PTSI/blob/master/Info/TP/TP4/TP4%20-%20Ex01.py), en sachant que la fonction `axhline` n'a que des paramètres optionnels (et si vous chipotez, sachez que la couleur `black` existe dans `matplotlib.pyplot`.
+
+**Q5** Pour les tangentes, ai pas trouvé s'il existe une méthode sous `matplotlib.pyplot` ou `numpy` pour le faire à notre place. A creuser... (15/03/17)
+
+Sauvegarder en format pdf :
+> Il est toujours conseillé de mettre une extension aux noms de fichier ; si vous y tenez plt.savefig('toto',format='pdf') sauvegardera l’image sous le nom “toto” (sans extension !) au format “pdf”.  
+La syntaxe est donc :
+```python
+plt.savefig('toto.pdf',format='pdf')
+```
+Remarque : Si jamais vous vouliez sauvegarder **et** afficher votre graphique, eh bien sauvegardez le en premier.
+
+## Exercice 3
+
+**Q1** `crible` pour crible d'Eratosthène, naturellement... Pour ceux qui ne l'ont pas encore fait / compris, voici un [site](http://www.math93.com/index.php/histoire-des-maths/notions-et-theoremes/186-crible-d-eratosthene) qui l'explique bien.  
+"`pi(x)` est le nombre d'entiers premiers inférieurs ou égaux à x."
+
+**Q2** Des infos sur quad [ici](http://www.science-emergence.com/Articles/Calculer-une-int%C3%A9grale-simple-avec-python/) :
+```python
+quad(fonction,borne_inf,borne_sup) # renvoie (valeur,erreur)
+```
+Attention, `numpy` est fourbe : `log` <=> ln, et `log10` <=> log :expressionless:
+
+**Q3** Besoin d'aide ?
