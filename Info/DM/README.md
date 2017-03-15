@@ -27,13 +27,14 @@ Indice : vraiment, vraiment chercher au plus simple.
 Indices :   - les coefficients diagonaux ont pour 'indices' i = j.  
             - les coefficients sous la diagonale vérifient :
     prendre une ligne (resp. une colonne) et regarder où se trouvent les coefs 'intéressants' **par rapport** à cette ligne (resp. colonne).
+Aide plus poussée toooout en [bas](https://github.com/CaptainTheDelta/PTSI/tree/master/Info/DM#aide)...
 
 **Q7 :** Vérifier que les matrices sont sommables. Ajouter coefs à coefs.
 
 **Q8 : a)** Création de la matrice transposée via `cree_matrice`. Remplissage en inversant les indices.  
-**b)** rappel du cours : matrices symétriques : transposée(A) = a  
-matrices antisymétriques : transposée(A) = -A  
-Pour la matrice triangulaire inférieure, étudier transposée(A).
+**b)** rappel du cours : - matrices symétriques : transposée(A) = a  
+- matrices antisymétriques : transposée(A) = -A  
+- Pour la matrice triangulaire inférieure, étudier la transposée(A).
 
 **Q9 :** Besoin d'aide ?
 
@@ -107,3 +108,32 @@ quad(fonction,borne_inf,borne_sup) # renvoie (valeur,erreur)
 Attention, `numpy` est fourbe : `log` <=> ln, et `log10` <=> log :expressionless:
 
 **Q3** Besoin d'aide ?
+
+---
+
+
+## Aide
+
+Pour le parcourrs des matrices :  
+Pour rappel, il y a deux types de `for` :
+```python
+for i in range(n):
+for elt in liste:
+```
+Pour choisir, demandez vous ce que vous voulez obtenir : une position dans la liste, ou bien une valeur.  
+Ce choix effectué, demandez vous comment accéder au sous-éléments de votre liste matrice.
+
+Il n'existe aucune meilleure solution, mais juste, sachez que :
+```python
+liste = [['a','b','c'],['d'],['e','f','g']]
+
+# pour tout afficher, on peut faire :
+for ssliste in liste:
+    for elt in ssliste:
+        print(elt)
+
+# ou bien :
+for i in range(len(liste)):
+    for j in range(len(liste[i])):
+        print(liste[i][j])
+```
