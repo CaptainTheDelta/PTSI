@@ -58,6 +58,7 @@ def pow(x,n):
 
     return pow(x, n-1)
 ```
+Après test, pas nécessairement une bonne idée.
 
 **Q11 : a)** Etudier la somme des indices des coefs non nuls.  
 **b)** `centroMat` est plus difficile à appréhender :
