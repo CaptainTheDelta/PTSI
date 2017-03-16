@@ -177,4 +177,4 @@ def printMat(A):
     for m in mat:
         print(m)
 ```
-*PS: ça me paraît evident, mais cette fonction, vous l'enlevez avant de rendre le DM :smile:*
+*PS: ça me paraît evident, mais cette fonction, vous l'enlevez avant de rendre le DM* :smile:
