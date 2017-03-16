@@ -110,6 +110,8 @@ Attention, `numpy` est fourbe : `log` <=> ln, et `log10` <=> log :expressionless
 
 **Q3** Besoin d'aide ?
 
+Pour les questions 2 et 3, faire de 2 à x, ou de 2 a 10\**4.
+
 ---
 
 
