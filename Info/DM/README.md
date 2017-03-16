@@ -140,3 +140,40 @@ for i in range(len(liste)):
     for j in range(len(liste[i])):
         print(liste[i][j])
 ```
+
+
+
+
+Je vous fais don d'une fonction afin d'observer vos matrices d'une manière plus parlante :
+```python
+def printMat(A):
+    n,p = taille(A)
+
+    strA = [[str(coef) for coef in line] for line in A]
+    lenCoef = [[len(coef) for coef in line] for line in strA]
+    maxLen = max([max(line) for line in lenCoef])
+
+    for i in range(n):
+        for j in range(p):
+            l = maxLen - lenCoef[i][j]
+            ap = l // 2
+            av = l - ap
+
+            strA[i][j] = ' ' * av + strA[i][j] + ' ' * ap
+
+    if(n == 1):
+        print('( ' + ' '.join(strA[0]) + ' )')
+        return
+
+    mat = [' '.join(a) for a in strA]
+
+    mat[0] = '/ ' + mat[0] + ' \\'
+
+    for i in range(1,n-1):
+        mat[i] = '| ' + mat[i] + ' |'
+
+    mat[-1] = '\\ ' + mat[-1] + ' /'
+
+    for m in mat:
+        print(m)
+```
