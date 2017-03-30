@@ -18,6 +18,19 @@ np.arange(m,M,h)
 
 ## Étude de la chute libre
 
-**Q1 :** De la physique, pas de l'info.
+**Q1 :** De la physique, pas de l'info. C'est tout facile !
 
-**Q2 :** 
+**Q2 :** v_truc renvoie la dérivée de la fonction y en t.  
+Nota Bene :
+```python
+from scipy.misc import derivative
+
+derivative(f,x) # Renvoie f'(x)
+
+# Quand on envoie une fonction comme paramètre, on fait attention à ce qu'on fait :
+y(t) # -> Nombre
+y    # -> Fonction
+```
+A vous de voir si vous voulez dériver un nombre ou une fonction...
+
+**Q3 :** Pas encore fait.
