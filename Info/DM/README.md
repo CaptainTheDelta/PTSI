@@ -86,7 +86,7 @@ euler2(F,...)
 
 **Q1 :** Physique, pas info.
 
-**Q2 :** 
+**Q2 :** On prend v = dy/dt. On dans l'équa diff, on se débrouille pour obtenir dy/dt en fonction de y (intégration), et tadam, on a notre fonction !
 
 **Q3 :** Exploitation des résultats.
 
@@ -96,9 +96,9 @@ euler2(F,...)
 
 **Q1 :** Physique, pas info
 
-**Q2 :** 
+**Q2 :** On prend v = dy/dt. On dans l'équa diff, on se débrouille pour obtenir dy/dt en fonction de y (intégration), et tadam, on a notre fonction !
 
-**Q3 :** 
+**Q3 :** Exploitation des résultats.
 
 
 ## Étude expérimentale et confrontation aux hypothèses des modèles
