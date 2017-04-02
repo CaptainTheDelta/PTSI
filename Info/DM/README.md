@@ -1,4 +1,5 @@
 # Pistes pour le DM7
+*Désolé pour le retard, j'ai eu quelques difficultés imprévues...*
 
 ## Préliminaires
 
@@ -20,7 +21,7 @@ np.arange(m,M,h)
 
 **Q1 :** De la physique, pas de l'info. C'est tout facile !
 
-**Q2 :** v_truc renvoie la dérivée de la fonction y en t.  
+**Q2 :** v_libre renvoie la dérivée de la fonction y en t.  
 Nota Bene :
 ```python
 from scipy.misc import derivative
@@ -32,36 +33,46 @@ y(t) # -> Nombre
 y    # -> Fonction
 ```
 A vous de voir si vous voulez dériver un nombre ou une fonction...
+Et la dérivée de la vitesse reste égale à -9.81...
 
-**Q3 :** Pas encore fait. CI ?
+**Q3 :** On cherche une liste des valeurs prises par v(t).  
+Application de la fonction Euler avec v_libre.  
+Euler renvoie une liste des temps et une liste contenant les valeurs de v(t).
 
 **Q4 :** Trivial.
 
 **Q5 :** Physique, pas de l'info. (trivial)
 
-**Q6 :** 
+**Q6 :** On a : Y = {z; v} et dY/dt = {dz/dt; dv/dt}.  
+On cherche à exprimer exprimer dz/dt et dv/dt en fonction de z et v (par les équa. diff).
+Donc  dY/dt = {expression de dz/dt; expression de dv/dt} = {v(t); -9.81} 
 
-**Q7 :** 
+**Q7 :** Faire un euler2 pour cette question (cf remarque du prof).  
+```
+(le prof au tableau :)
+euler2(F,...)
+    -> liste t
+    -> liste F  -> liste z
+                -> liste v
+```
 
-**Q8 :** 
+**Q8 :** Comme pour la question 3, on cherche une liste de valeurs de z(t). Et comme pour la question 3, il faut appliquer les fonctions qu'on vient de définir.
 
-**Q9 :** 
+**Q9 :** La joie des graphiques. Besoin d'aide ?
 
-**Q10 :** 
+**Q10 :** Nouvelle façon de présenter les choses...
 
-**Q11 :** 
+**Q11 :** Rien à ajouter.
+**Q12 :** Rien à ajouter.
+**Q13 :** Rien à ajouter.
 
-**Q12 :** 
-
-**Q13 :** 
-
-**Q14 :** 
+**Q14 :** Comparaison avec vos résultats, lecture graphique. Besoin d'aide ?
 
 
 ## Étude dynamique d'une chute avec frottements
 
 
-**Q1 :** 
+**Q1 :** Rappel de calcul pour les mauvais : Vsphère = (4/3) * pi * (r^3)
 
 **Q2 :** 
 
