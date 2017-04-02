@@ -45,9 +45,12 @@ Euler renvoie une liste des temps et une liste contenant les valeurs de v(t).
 
 **Q6 :** On a : Y = {z; v} et dY/dt = {dz/dt; dv/dt}.  
 On cherche à exprimer exprimer dz/dt et dv/dt en fonction de z et v (par les équa. diff).
-Donc  dY/dt = {expression de dz/dt; expression de dv/dt} = {v(t); -9.81} 
+Donc  F = dY/dt = {expression de dz/dt; expression de dv/dt} = {v(t); -9.81} 
 
-**Q7 :** Faire un euler2 pour cette question (cf remarque du prof).  
+**Q7 :** z_libre renvoie le vecteur F. (de ce que j'ai compris.)
+
+**Q8 :** Comme pour la question 3, on cherche une liste de valeurs de z(t). Et comme pour la question 3, il faut appliquer les fonctions qu'on vient de définir.  
+Faire un euler2 pour cette question (cf remarque du prof).  
 ```
 (le prof au tableau :)
 euler2(F,...)
@@ -55,8 +58,6 @@ euler2(F,...)
     -> liste F  -> liste z
                 -> liste v
 ```
-
-**Q8 :** Comme pour la question 3, on cherche une liste de valeurs de z(t). Et comme pour la question 3, il faut appliquer les fonctions qu'on vient de définir.
 
 **Q9 :** La joie des graphiques. Besoin d'aide ?
 
@@ -108,3 +109,7 @@ euler2(F,...)
 
 **Q2 :** Idem.
 
+
+## Remerciements
+
+A un copain qui m'a fait comprendre Euler et fait bien avancé sur le DM.
