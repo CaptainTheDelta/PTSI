@@ -62,9 +62,9 @@ euler2(F,...)
 
 **Q10 :** Nouvelle façon de présenter les choses...
 
-**Q11 :** Rien à ajouter.
-**Q12 :** Rien à ajouter.
-**Q13 :** Rien à ajouter.
+**Q11 :** Rien à ajouter.  
+**Q12 :** Rien à ajouter.  
+**Q13 :** Rien à ajouter.  
 
 **Q14 :** Comparaison avec vos résultats, lecture graphique. Besoin d'aide ?
 
@@ -74,27 +74,27 @@ euler2(F,...)
 
 **Q1 :** Rappel de calcul pour les mauvais : Vsphère = (4/3) * pi * (r^3)
 
-**Q2 :** 
+**Q2 :** Faire un PFD avec le poids et Archimède, en déduire g_2 (l'ensemble).
 
-**Q3 :** 
+**Q3 :** Refaire un PFD avec les frottements en plus. Pour f, regarder la partie hypothèse n°1.
 
-**Q4 :** 
+**Q4 :** Refaire un PFD avec les frottements en plus. Pour f, regarder la partie hypothèse n°2.
 
 
 ## Hypothèse n°1 sur les frottements
 
 
-**Q1 :** 
+**Q1 :** Physique, pas info.
 
 **Q2 :** 
 
-**Q3 :**
+**Q3 :** Exploitation des résultats.
 
 
 ## Hypothèse n°2 sur les frottements
 
 
-**Q1 :** 
+**Q1 :** Physique, pas info
 
 **Q2 :** 
 
@@ -104,7 +104,7 @@ euler2(F,...)
 ## Étude expérimentale et confrontation aux hypothèses des modèles
 
 
-**Q1 :** 
+**Q1 :** Question très dure. Je ne peux rien pour vous.
 
-**Q2 :** 
+**Q2 :** Idem.
 
