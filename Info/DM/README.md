@@ -1,4 +1,4 @@
-Pistes pour le DM de physique, le [DM7](DM#Pistes-DM-7)
+Pistes pour le DM de physique, le [DM7](DM#pistes-dm-7)
 
 # Pistes pour le DM de physique
 *Désolé pour le retard, j'ai eu quelques difficultés imprévues...*
