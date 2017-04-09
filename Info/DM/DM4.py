@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 11 20:10:42 2016
-
-@author: Lesecq - Damien
-"""
-# DM3 - Informatique PTSI-B 2016/17
-
 #===============================================================================
 def ex(nbr,consigne):
     a = ''

@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 11 20:10:42 2016
-
-@author: Lesecq - Damien
-"""
-# DM3 - Informatique PTSI-B 2016/17
-
-#===============================================================================
 def ex(nbr,consigne):
     a = ''
     if(nbr >= 10):
@@ -418,10 +409,6 @@ def suiteDrk(n):
     return val
 
 #===============================================================================
-print("\n\tDM1 - Informatique")
-print("\t   PTSIB 15/16")
-print("\t  Lesecq Damien")
-
 ex(1,"SC")
 
 (tpsVol, altMax, tpsVolAlt) = infos_sc(10**4)

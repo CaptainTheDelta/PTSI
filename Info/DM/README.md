@@ -1,4 +1,6 @@
-# Pistes pour le DM7
+Pistes pour le DM de physique, le [DM7](# Pistes DM 7)
+
+# Pistes pour le DM de physique
 *Désolé pour le retard, j'ai eu quelques difficultés imprévues...*
 
 ## Préliminaires
@@ -113,3 +115,6 @@ euler2(F,...)
 ## Remerciements
 
 A un copain qui m'a fait comprendre Euler et fait bien avancé sur le DM.
+
+
+# Pistes DM 7

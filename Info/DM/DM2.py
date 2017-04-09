@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: Lesecq - Damien
-"""
-# DM2 - Informatique PTSI-B 2016/17
-
 import math
 
 def isPrime(n):
@@ -240,10 +234,6 @@ def ex(n):
 def q(n):
     print("\nQuestion n°{}".format(n))
 #===============================================================================
-
-print(              "\n\tDM1 - Informatique\n"
-                        "\t   PTSIB 16/17\n"
-                        "\t  Lesecq Damien")
 
 ex(2) #                    ------------------
 
