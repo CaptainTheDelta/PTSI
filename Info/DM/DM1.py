@@ -1,15 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-@author Lesecq - Damien
-"""
-# DM1 - Informatique PTSI-B 2016/17
-
 def ex(n):
     print("\n\n-------------Exercice {}-------------".format(n))
-
-print("\n\tDM1 - Informatique")
-print("\t   PTSIB 15/16")
-print("\t  Lesecq Damien")
 
 # Exercice 4
 ex(4)
