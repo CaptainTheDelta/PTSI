@@ -1,4 +1,4 @@
-Pistes pour le DM de physique, le [DM7](DM#Pistes-DM-7)
+Pistes pour le DM de physique, le [DM7](https://github.com/CaptainTheDelta/PTSI/tree/master/Info/DM#pistes-dm-7)
 
 # Pistes pour le DM de physique
 *Désolé pour le retard, j'ai eu quelques difficultés imprévues...*
@@ -118,3 +118,56 @@ A un copain qui m'a fait comprendre Euler et fait bien avancé sur le DM.
 
 
 # Pistes DM 7
+
+## Partie I : Des matrices avec `numpy`
+
+**Q1 :** shape <-> forme  
+ndim <-> n lignes  
+size <-> taille => nombre d'éléments.  
+dtype <-> type d'élément.
+
+**Q2 :**  
+```python
+A + 4               # dur à comprendre...
+A \\ 2              # /!\ Faux !!! Il faut faire :
+A // 2              # cf division euclidienne
+A % 2               # cf reste de la DE
+A * 4               # dur à comprendre...
+```
+
+**Q3 :**  
+```python
+np.zeros            # Matrice de 0.
+np.zeros(tuple)     # tuple : dimensions de la matrice.
+np.zeros(int)       # int : matrice à une ligne, dont on précise le nombre d'éléments.
+
+np.ones
+# pareil, mais avec des 1.
+
+np.eye              # Matrice identité
+
+np.array            # Déjà vu
+
+np.diag(x)          # Matrice diagonale avec les coefs diagonaux égaux à ceux de la matrice ligne
+np.diag(x,2)        # Plein de zéro, les coef de x sont disposés sur la deuxième diagonale à droite de la diag centrale.
+np.diag(x,-2)       # Plein de zéro, les coef de x sont disposés sur la deuxième diagonale à gauche de la diag centrale.
+
+np.random.rand(3)   # Matrice de valeurs aléatoires (entre 0 et 1) à 3 éléments.
+np.random.rand((2,3)) # /!\ Faux !!! Il faut faire :
+np.random.rand(2,3) # Pareil, mais on définit les dimensions de la matrice.
+```
+
+**Q4 :**  
+```python
+A.reshape(x,y)      # Créé une matrice à x lignes et y colonnes à partir de la matrice A.
+```
+A noter que si les nouvelles dimensions ne permettent pas d'exploiter toutes les données, cela engendre une erreur. (en tout cas de mon côté)
+
+**Q5 :**
+```python
+A * D               # Opération entre les coef à 'la même place'.
+A ** n              # Il s'agit des coefficients de la matrice qui sont mis à la puissance n.
+I * A               # Comme pour A * D. => Pas comme un produit de matrices !!!
+```
+
+**Q6 :** On utilise `np.transpose` et non (`transpose`) pour obtenir... La transposée !  
