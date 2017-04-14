@@ -170,4 +170,15 @@ A ** n              # Il s'agit des coefficients de la matrice qui sont mis à l
 I * A               # Comme pour A * D. => Pas comme un produit de matrices !!!
 ```
 
-**Q6 :** On utilise `np.transpose` et non (`transpose`) pour obtenir... La transposée !  
+**Q6 :** 
+```python
+transpose           # /!\ Faux !!! Il faut faire :
+np.transpose        # Donne... la transposée !
+
+np.dot              # Permet la multiplication entre deux matrices
+np.trace            # La trace de la matrice...
+
+nplg.inv            # Donne l'inverse de la matrice.
+nplg.solve          # Résout le système.
+nplg.matrix_power   # Matrice à la puissance...
+```
