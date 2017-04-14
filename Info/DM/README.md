@@ -118,7 +118,6 @@ A un copain qui m'a fait comprendre Euler et fait bien avancé sur le DM.
 
 
 # Pistes DM 7
-<<<<<<< HEAD
 
 ## Partie I : Des matrices avec `numpy`
 
@@ -142,8 +141,7 @@ np.zeros            # Matrice de 0.
 np.zeros(tuple)     # tuple : dimensions de la matrice.
 np.zeros(int)       # int : matrice à une ligne, dont on précise le nombre d'éléments.
 
-np.ones
-# pareil, mais avec des 1.
+np.ones             # pareil, mais avec des 1.
 
 np.eye              # Matrice identité
 
@@ -183,5 +181,16 @@ nplg.inv            # Donne l'inverse de la matrice.
 nplg.solve          # Résout le système.
 nplg.matrix_power   # Matrice à la puissance...
 ```
-=======
->>>>>>> origin/master
+
+**Q7 :** `A[a:b, c:d]` : on prend les lignes [a;b[ et les colonnes [c;d[.
+
+**Q8 :** `B[a:b,c:d,e:f]` ~ `B[a:b][c:d][e:f]`, et même fonctionnement que pour 2D.
+
+**Q9 :** Si on n'utilise pas la commande `copy`, dès lors qu'on modifie une des valeurs de notre nouveau tableau, on modifie le tableau d'origine.
+
+
+## Partie II : Manipulation d'images
+
+**Q5 :** Penser à vérifier que les paramètres sont valides, et réutiliser les fonctions déjà créées.
+
+**Q6 :**
