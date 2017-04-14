@@ -118,6 +118,7 @@ A un copain qui m'a fait comprendre Euler et fait bien avancé sur le DM.
 
 
 # Pistes DM 7
+<<<<<<< HEAD
 
 ## Partie I : Des matrices avec `numpy`
 
@@ -182,3 +183,5 @@ nplg.inv            # Donne l'inverse de la matrice.
 nplg.solve          # Résout le système.
 nplg.matrix_power   # Matrice à la puissance...
 ```
+=======
+>>>>>>> origin/master
