@@ -5,6 +5,7 @@
 - [ ] Méthodes de lectures/écritures d'un fichier.
 - [ ] Euler.
 - [ ] Pivot de Gauss, résolution d'équations.
+- [ ] Méthode de Jacobi !!!
 - [ ] Plein de formes de tri.
 - [ ] Comment (bien) faire des graphiques.
 - [ ] Méthodes sympa avec les boucles (enumerate, zip)
