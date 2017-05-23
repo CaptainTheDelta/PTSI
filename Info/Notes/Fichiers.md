@@ -45,6 +45,34 @@ with open("MonFichier",'r') as fichier:
 ### Ecriture
 
 ```python
-with open("MonFichier",'r') as fichier:
-    data = fichier.readline()
+with open("MonFichier",'w') as fichier:
+    fichier.write(data)
 ```
+
+## json
+
+Le module json est une manière assez propre de stocker des infos. Il est de plus en plus utilisé, remplaçant progressivement le xml.
+
+```python
+import json
+
+with open("MonFichier",'r') as fichier:
+    data = json.load(fichier)
+
+with open("MonFichier",'w') as fichier:
+    json.dump(data)
+```
+
+Ou bien avec des `s`:
+
+```python
+import json
+
+with open("MonFichier",'r') as fichier:
+    data = json.loads(fichier)
+
+with open("MonFichier",'w') as fichier:
+    json.dumps(data)
+```
+
+Avec le `s`, on enregistre/récupère une variable, sans le `s`, on enregistre/récupère sa représentation sous forme de string.
